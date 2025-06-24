@@ -114,11 +114,11 @@ const API_SITES = {
         name: '金马资源'
     },
         yzzy: {
-        api: 'https://apiyutu.com/api.php/provide/vod/?ac=list',
+        api: 'https://apiyutu.com/api.php/provide/vod/',
         name: '玉兔'
     },
     testSource: {
-        api: 'https://https://apiyutu.com/api.php/provide/vod/?ac=list',
+        api: 'https://https://apiyutu.com/api.php/provide/vod/',
         name: '玉兔',
         adult: true
     },
