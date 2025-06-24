@@ -13,7 +13,7 @@ const PASSWORD_CONFIG = {
 // 网站信息配置
 const SITE_CONFIG = {
     name: '云播视频',
-    url: 'https://f8yy.com',
+    url: 'https://yss01.com',
     description: '免费在线视频搜索平台',
     logo: 'image/logo.png',
     version: '1.0.3'
@@ -37,6 +37,18 @@ const API_SITES = {
     tyyszy: {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
+    },
+     mtzy: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+        name: '茅台资源',
+    },
+     lzzy: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '量子资源',
+    },
+     hnzy: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod',
+        name: '红牛资源',
     },
     // xiaomaomi: {
     //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
