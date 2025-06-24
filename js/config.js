@@ -117,6 +117,10 @@ const API_SITES = {
         api: 'https://api.yzzy-api.com/inc/api_mac10.php',
         name: '优质资源'
     },
+     yzzy: {
+        api: 'https://apiyutu.com/api.php/provide/vod/?ac=list',
+        name: '玉兔'
+   
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
