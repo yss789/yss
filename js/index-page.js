@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 try {
                     window.history.replaceState(
                         { search: keyword }, 
-                        `搜索: ${keyword} - >云播视频`, 
+                        `搜索: ${keyword} - 云播视频`, 
                         window.location.href
                     );
                 } catch (e) {
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 window.history.replaceState(
                     { search: searchQuery }, 
-                    `搜索: ${searchQuery} - >云播视频`, 
+                    `搜索: ${searchQuery} - 云播视频`, 
                     `/s=${encodeURIComponent(searchQuery)}`
                 );
             } catch (e) {
