@@ -122,8 +122,8 @@ const API_SITES = {
         name: '玉兔'
    
     testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+        api: 'https://https://apiyutu.com/api.php/provide/vod/?ac=list',
+        name: '玉兔',
         adult: true
     },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
