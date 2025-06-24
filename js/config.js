@@ -117,7 +117,7 @@ const API_SITES = {
         api: 'https://apiyutu.com/api.php/provide/vod/',
         name: '玉兔'
     },
-    testSource: {
+    yzzy: {
         api: 'https://https://apiyutu.com/api.php/provide/vod/',
         name: '玉兔',
         adult: true
