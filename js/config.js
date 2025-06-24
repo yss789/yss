@@ -12,7 +12,7 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'F8电影网',
+    name: '>云播视频',
     url: 'https://f8yy.com',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
