@@ -45,29 +45,5 @@
 		</footer>
 	</div>
 </body>
-    <script>
-        // 检测F12按键
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'F12' || e.keyCode === 123) {
-                e.preventDefault();
-                window.close();
-                document.body.innerHTML = '<h1>禁止使用开发者工具</h1>';
-            }
-        });
 
-        // 检测窗口大小变化
-        setInterval(function() {
-            const threshold = 150;
-            if (window.outerWidth - window.innerWidth > threshold || 
-                window.outerHeight - window.innerHeight > threshold) {
-                window.close();
-                document.body.innerHTML = '<h1>检测到开发者工具</h1>';
-            }
-        }, 500);
-
-        // 禁用右键菜单
-        document.oncontextmenu = function() {
-            return false;
-        };
-    </script>
 </html>
