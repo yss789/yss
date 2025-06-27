@@ -64,11 +64,11 @@ async function checkForUpdates() {
         }
         
         console.log('当前版本:', currentVersion);
-        console.log('最新版本:', latestVersion);
+        console.log('最新版本:', currentVersion);
         
         // 清理版本字符串（移除可能的空格或换行符）
         const cleanCurrentVersion = currentVersion.trim();
-        const cleanLatestVersion = latestVersion.trim();
+        const cleanLatestVersion = currentVersion.trim();
         
         // 返回版本信息
         return {
