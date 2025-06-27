@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>云播视频 - 免费在线视频搜索与观看平台</title>
+    <title>云播视频 - 免费在线视频搜索平台</title>
     <meta name="description" content="云播视频是一个免费的在线视频搜索平台，无广告、安全，提供来自多个视频源的内容搜索与观看服务，无需注册即可使用。">
     <meta name="keywords" content="在线视频,免费视频,视频搜索,电影,电视剧,云播视频">
     <meta name="author" content="云播视频">
@@ -432,32 +432,7 @@
 
     <!-- 版本检测脚本 -->
     <script src="js/version-check.js"></script>
-    <!-- 禁止F12 -->
-    <script>
-        // 检测F12按键
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'F12' || e.keyCode === 123) {
-                e.preventDefault();
-                window.close();
-                document.body.innerHTML = '<h1>禁止使用开发者工具</h1>';
-            }
-        });
 
-        // 检测窗口大小变化
-        setInterval(function() {
-            const threshold = 150;
-            if (window.outerWidth - window.innerWidth > threshold || 
-                window.outerHeight - window.innerHeight > threshold) {
-                window.close();
-                document.body.innerHTML = '<h1>检测到开发者工具</h1>';
-            }
-        }, 500);
-
-        // 禁用右键菜单
-        document.oncontextmenu = function() {
-            return false;
-        };
-    </script>
     <!-- 添加弹窗和URL搜索参数处理脚本 -->
     <script src="js/index-page.js"></script>
 </body>
