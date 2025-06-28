@@ -215,7 +215,7 @@ function initializePageContent() {
     }
 
     // 设置页面标题
-    document.title = currentVideoTitle + ' - A8YY';
+    document.title = currentVideoTitle + ' - 智能云播';
     document.getElementById('videoTitle').textContent = currentVideoTitle;
 
     // 初始化播放器
